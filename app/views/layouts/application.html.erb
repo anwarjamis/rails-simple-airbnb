@@ -23,19 +23,7 @@
     </nav>
 
     <div class="container mt-3">
-      <div class="row">
-        <div class="col-12">
-          <h1>All our flats</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <p>All <%= Flat.all.size  %> flats.</p>
-        </div>
-      </div>
-      <div class="row">
-        <%= yield %>
-      </div>
+      <%= yield %>
     </div>
   </body>
 </html>
